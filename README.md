@@ -1,16 +1,16 @@
 
-# 🎙️🤖 Pipeline de Transcrição e Extração de Pontos-Chave (Whisper + Ollama)
+# Pipeline de Transcrição e Extração de Pontos-Chave (Whisper + Ollama)
 
 Projeto acadêmico desenvolvido no **Google Colab** que automatiza a conversão de áudio, a transcrição de fala em português utilizando **OpenAI Whisper** e a extração dos principais pontos-chave em tópicos usando **Ollama** (`llama3.2`).
 
 ---
 
 ## 🛠️ Tecnologias e Dependências Utilizadas
-* ☁️ **Google Colab** — Ambiente de execução em nuvem (Python)
-* 📦 **`zstd`** — Utilitário de descompressão utilizado para extrair o pacote de instalação do Ollama no Linux
-* 🎬 **`ffmpeg`** — Conversão do áudio original (`.m4a`) para `.mp3` e suporte interno de leitura de mídia para o Whisper
-* 🎧 **OpenAI Whisper (`base`)** — Modelo de reconhecimento de fala (*Speech-to-Text*) configurado para o idioma português (`language="pt"`)
-* 🧠 **Ollama (`llama3.2`)** — Modelo de linguagem executado localmente no ambiente para análise e sumarização em pontos-chave
+* **Google Colab** — Ambiente de execução em nuvem (Python)
+* **`zstd`** — Utilitário de descompressão utilizado para extrair o pacote de instalação do Ollama no Linux
+* **`ffmpeg`** — Conversão do áudio original (`.m4a`) para `.mp3` e suporte interno de leitura de mídia para o Whisper
+* **OpenAI Whisper (`base`)** — Modelo de reconhecimento de fala (*Speech-to-Text*) configurado para o idioma português (`language="pt"`)
+* **Ollama (`llama3.2`)** — Modelo de linguagem executado localmente no ambiente para análise e sumarização em pontos-chave
 
 ---
 
